@@ -1,4 +1,7 @@
 {
+  "framework": null,
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "node scripts/build-vercel.js",
   "routes": [
     { "src": "/(.*)", "dest": "/api/index.js" }
   ]
